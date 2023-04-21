@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;500;600;700&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+//fonts
+
+$font1:'Dancing Script', cursive;
+$font2:'Anuphan', sans-serif;
+$font3:'Open Sans', sans-serif;
+
+//font sizes
+
+$s1: 10px;
+$s2: 20px;
+$s3: 30px;
+$s4: 40px;
+$s5: 50px;
+$s6: 60px;
+$s8: 80px;
+
+//margin sizes
+
+$m1: 10px;
+$m2: 20px;
+$m3: 30px;
+$m4: 40px;
+$m10: 100px;
+
+//padding sizes
+
+$p1: 10px;
+$p2: 20px;
+$p3: 30px;
+$p4: 40px;
+$p10: 100px;
+$p20: 200px;
+$p30: 300px;
+
+//paleta de colores 
+
+$white: white;
+$gris1: #dcdcdc;
+$gris2: #cccccc;
+$gris3: #282828;
+$gris4: #232323;
+$black: black;
+$rojo1: #ff1100;
+$pink1: rgb(238, 231, 231);
+$blackg:rgba(18, 18, 18, 0.502);
+$blackg2: rgba(0, 0, 0, 0.051);
+$whiteg:rgba(255, 255, 255, 0.501);
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+       background-color: $pink1;
+}
+
+.index__bg{
+            background-image: linear-gradient($blackg, $whiteg), url("assets/images/portatil.jpg");
+            background-size: cover;
+            background-position: center;
+            height: auto;           
+}
+
+.jumbotron__box1{
+                  padding-top: $p20;
+                  text-shadow: 1px 3px 5px $gris4;
+                  text-align: center;
+                  margin-bottom: $m10;
+
+                  h1{                    
+                      letter-spacing: 5px;
+                      color: $gris1;
+                      font-family: $font2;                    
+                  }
+
+                  p{
+                      color: $gris4;
+                      font-size: $s3;
+                      letter-spacing: 2px;
+                      padding-bottom: 80px;
+                  }
+
+                 a{
+                      border-radius: 12px;
+                 }
+}
+
+.aside__box1{     
+              background-color: $blackg;     
+              margin-bottom: 100px;
+              border-radius: 0 0 0 30px;
+
+              a{
+                 color: $white;
+                 font-family: $font3;
+              }
+
+}
+
+.footer__box1{  
+               nav{
+                    background-color: $blackg2; 
+                    border-radius: 30px 30px 0 0;
+                    font-size: 10px;
+                   
+                    a{
+                       color: $white;
+                    }
+               }
+}
+
+//ABOUT.HTML
+.about__box1{
+              background-color:$gris1;
+              margin-bottom: 100px;
+
+              h1{
+                  font-family: $font3;
+                  font-size: $s8;
+                  letter-spacing: -7px;
+                  color: $gris4;
+                  line-height: 50px;       
+              }
+}
+
+.card__box1{
+             background-color: $gris1;
+             border-radius: 5px 5px 5px 5px;
+             margin-bottom: 100px;
+             border:none;   
+
+             .card__col1{
+                          background-color:$pink1;
+             }
+}
+
+.card__body{
+             text-align: center;
+
+             h2{
+                 font-family: $font1;
+                 color: $gris3;
+            }
+
+             p{
+                font-family: $font3;
+                color: $gris3;
+            }
+}
+
+//mySkills
+
+.mySkills__box2{
+                 background-color:$gris4;  
+
+                 .mySkills__section1{                                       
+
+
+                 h1{
+                    color: $gris1;
+                   
+                 }
+
+                 p{
+                    color: $gris1;
+                 }
+
+                 
+                }
+
+}
+
+.skillscard__box1{
+                   background-color: $gris1;
+
+             .card__box2{
+                          background-color: $gris1;
+                          transform: skew(-10deg, 0deg);
+
+                          h5{background-color: $gris4;          
+                          }
+
+                          p{
+                            background-color: $gris4;
+                          }
+              }
+}
+
+//CONTACTO
+
+
+video{
+    width:460px;
+    height:350px;        
+    background-size: cover;    
+}
+
+//PORTFOLIO
+
+.port__box1{
+             background-color: $gris4;
+
+             h1{
+                 font-family: $font3;
+                 font-size: $s8;
+                 letter-spacing: -7px;
+                 color: $gris2;
+                 line-height: 50px;
+               }
+
+              #galeria img{
+                             width: 100%;
+                             height: auto;
+}
+
+#galeria  img:hover{
+
+    border: 5px solid $white;
+    }
+
+}
+
