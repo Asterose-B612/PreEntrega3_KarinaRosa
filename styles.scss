@@ -95,6 +95,8 @@ body {
               background-color: $blackg;     
               margin-bottom: 100px;
               border-radius: 0 0 0 30px;
+              padding-right: 0;
+              padding-left: 0;
 
               a{
                  color: $white;
@@ -157,7 +159,8 @@ body {
 //mySkills
 
 .mySkills__box2{
-                 background-color:$gris4;  
+                 background-color:$gris4; 
+                 clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); 
 
                  .mySkills__section1{                                       
 

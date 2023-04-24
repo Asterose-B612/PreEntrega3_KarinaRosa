@@ -42,6 +42,8 @@ body {
   background-color: rgba(18, 18, 18, 0.502);
   margin-bottom: 100px;
   border-radius: 0 0 0 30px;
+  padding-right: 0;
+  padding-left: 0;
 }
 .aside__box1 a {
   color: white;
@@ -93,6 +95,8 @@ body {
 
 .mySkills__box2 {
   background-color: #232323;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 .mySkills__box2 .mySkills__section1 h1 {
   color: #dcdcdc;
